@@ -23,6 +23,6 @@ size() | Checks the size of the set | length = len(new_set) | O(1)
 In my opinion the some of the best uses for a set would be for a computer network's security. A good example of this are when network engineers track IPs or users that have accessed a computer network. Using a set you can very quickly identify either the user or the IP that has accessed the system, rather than having to search through each one. 
 ## Problem to Solve
 Demonstrate your ability to use a simple case of sets to add users to an empty set, try to add a duplicate user to the set, and then check to see if a user is inside of the set and remove a specific user from the set.
-- [Problem](2-problemTemplate.md)
+- [Problem](2-problemTemplate.py)
 ## Possible Solution
-- [Solution](2-solution2.md)
+- [Solution](2-solution2.py)
