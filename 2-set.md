@@ -21,6 +21,27 @@ member(value) | Checks to see if value in set | if value in new_set: | O(1)
 size() | Checks the size of the set | length = len(new_set) | O(1)
 ## Set Example
 In my opinion the some of the best uses for a set would be for a computer network's security. A good example of this are when network engineers track IPs or users that have accessed a computer network. Using a set you can very quickly identify either the user or the IP that has accessed the system, rather than having to search through each one. 
+
+Here is a simple example of this with the use of sets:
+
+```python
+IP_set = set()
+
+IP_set.add("10.25.123.421")
+print("Current IPs connected: {}\n".format(IP_set))
+# Displays 10.25.123.421
+
+# Try to add the same IP to the set
+IP_set.add("10.25.123.421")
+print("Current IPs connected: {}\n".format(IP_set))
+# Should only display 10.25.123.421 with no duplicates
+
+IP_set.remove("10.25.123.421")
+# Removes 10.25.123.421 from set
+
+
+```
+
 ## Problem to Solve
 Demonstrate your ability to use a simple case of sets to add users to an empty set, try to add a duplicate user to the set, and then check to see if a user is inside of the set and remove a specific user from the set.
 - [Problem](2-problemTemplate2.py)
